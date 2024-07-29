@@ -1,2 +1,2 @@
 # Data-Cleaning-in-SQL
-Data Cleaning in SQL Projects
+Data Cleaning and Exploratory Data Analysis in SQL Project
