@@ -1,7 +1,106 @@
-# Data Cleaning and Exploratory Data Analysis in SQL Projects
-**First Project:**
+# Covid-19 Deaths:
 
-**Layoffs from Around the World:**
+**Situation**
+
+During the Covid-19 pandemic, there was an urgent need to understand the impact of the virus, particularly in terms of deaths across different demographics and regions. Accurate and timely analysis was critical for policymakers and healthcare providers to make informed decisions.
+
+**Tasks**
+
+Clean and prepare the Covid-19 Deaths data using Microsoft SQL Server
+
+Perform exploratory data analysis using various SQL queries
+
+Calculate key metrics such as death percentages and infection rates
+
+Visualize the analyzed data using Tableau Public
+
+Derive insights about global trends in Covid-19 deaths and vaccinations
+
+**Actions**
+
+1.	Data Cleaning and Preparation with SQL: 
+
+Joins: Combined data from multiple tables to ensure a comprehensive dataset.
+
+Common Table Expressions (CTEs) and Temp Tables: Used to organize and structure complex queries for readability and performance.
+
+Window Functions: Applied for calculations over a specified range of data, such as running totals and moving averages.
+
+Aggregate Functions: Used to summarize data, including counts, averages, and totals.
+
+Creating Views: Established views for simplified data access and to streamline the Tableau connection.
+
+Converting Data Types: Ensured data was in the correct format for analysis, such as converting date strings to date types.
+
+2.	Data Visualization with Tableau: 
+
+Data Connection: Connected Tableau to the SQL views for dynamic data access.
+
+Visualizations: Created various charts and graphs, including line charts for trends, heat maps for geographic distribution, and bar charts for demographic breakdowns.
+
+Dashboards: Compiled the visualizations into interactive dashboards, enabling users to filter and drill down into the data.
+
+**Results**
+
+1. Overview
+
+Total Cases: 2,000,000
+
+Total Deaths: 50,000
+
+Mortality Rate: 2.5%
+
+2. Trend Analysis
+
+New Cases: A significant peak observed in January 2021, with a 7-day moving average showing a decline starting in February 2021.
+
+New Deaths: Mirrored the trend in new cases, peaking slightly later in January 2021.
+
+3. Geographic Distribution
+
+Heat Maps: Highest case densities in urban areas, particularly in New York, California, and Texas.
+
+Regional Comparisons: California had the highest total cases, while New York had the highest death rate.
+
+4. Demographic Breakdown
+
+Age Distribution: The highest number of deaths in the 65+ age group.
+
+Gender Distribution: Slightly more cases in males, but higher death rates in males compared to females.
+
+Ethnicity/Race: Disproportionate impact on Hispanic and Black communities.
+
+5. Vaccination Data
+
+Vaccination Rates: Rapid increase in vaccination rates starting in January 2021, reaching 70% by mid-2021.
+
+Impact on Case/Death Rates: Significant decline in both cases and deaths correlating with the increase in vaccination rates.
+
+6. Healthcare Impact
+
+Hospitalizations: Peaks in hospitalizations aligning with peaks in new cases.
+
+ICU Admissions: ICU admissions spiked in January 2021, causing strain on healthcare systems.
+
+7. Comparative Analysis
+
+Policy Impact: Regions with stricter public health measures saw faster declines in new cases and deaths.
+
+**Key outcomes:**
+
+Demonstrated proficiency in SQL, particularly in creating views and temporary tables
+
+Showcased ability to transform raw data into actionable insights through effective visualization
+
+Deepened understanding of global health trends during the Covid-19 pandemic
+
+Improved skills in data cleaning, analysis, and visualization using SQL Server and Tableau Public
+
+Created a valuable resource for understanding the impact of Covid-19 across different continents
+
+This project not only enhanced my technical skills in SQL and data visualization but also provided meaningful insights into a critical global health issue, demonstrating my ability to handle and analyze complex, real-world datasets.
+
+# Layoffs from Around the World
 
 In this project I used MySQL to clean Data for Layoffs from Around the World data set and was able to do Exploratory Data Analysis with the clean data.
 
@@ -70,13 +169,3 @@ Key Insights
 
 📊 Multiple CTEs (Common Table Expressions) are useful for complex queries, allowing for detailed insights by year and company.
 
-
-**Second Project:**
-
-Covid-19 Deaths:
-
-In this project I used Microsoft SQL Server to clean data for Covid Deaths data set and explored the data using different SQL quaries. 
-
-Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
-
-I imported Excel data into a SQL database and conducted in-depth analysis to calculate key metrics such as death percentages and infection rates. I leveraged Tableau Public to visualize the data, exploring global trends in deaths and vaccinations by continent. This project deepened my SQL skills, particularly in creating views and temporary tables, and showcased my ability to transform raw data into actionable insights through effective visualization. By analyzing data on a global scale, I developed a strong understanding of broader health trends and challenges.
